@@ -14,3 +14,7 @@ letra = 'a'
 palavra1 = 'linguagem de programacao'
 palavra2 = 'python'
 print('Estou treinando', letra,palavra1,palavra2)
+
+#input
+idade = input('Digite sua idade: ')
+print('Sua idade é', idade)
