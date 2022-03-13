@@ -16,5 +16,6 @@ palavra2 = 'python'
 print('Estou treinando', letra,palavra1,palavra2)
 
 #input
-idade = input('Digite sua idade: ')
+idade = int(input('Digite sua idade: '))
 print('Sua idade é', idade)
+print(idade)
