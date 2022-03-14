@@ -19,6 +19,7 @@ l2_2 = lista2*2
 
 lista.append('Homo2')
 print(lista)
+#rev = a[::-1] inverter lista
 
 lista.remove('Canis')
 print(lista)
