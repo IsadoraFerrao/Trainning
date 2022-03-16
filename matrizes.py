@@ -9,7 +9,7 @@ matriz = np.array([[2,3,1],[4,3,1]]) #linha e coluna
 #print(matriz[0][1])
 
 for i in range(matriz.shape[0]): #posicao 0 linhas e 1 colunas
-    print(matriz[i])
+    #print(matriz[i])
     for j in range(matriz.shape[1]): #posicao 0 linhas e 1 colunas
         print(matriz[i][j])
 
