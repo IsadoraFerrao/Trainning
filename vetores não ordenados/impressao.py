@@ -18,8 +18,19 @@ class VetorNaoOrdenado:
             self.ultima_posicao += 1 
             self.valores[self.ultima_posicao] = valor
             
+    def pesquisar(self, valor): #pesquisa linear, procurando posicao por posicao até encontrar
+        for i in range(self.ultima_posicao + 1):
+            if valor == self.valores[i]:
+                return i
+            return -1
+    def excluir(self,valor):
+        posicao = self.pesquisar(valor)
+        if posicao
+            
 vetor = VetorNaoOrdenado(5)
 vetor.insere(2)
 vetor.insere(4)
 vetor.insere(7)
 vetor.imprimir()
+a = vetor.pesquisar(4)
+print(a)
